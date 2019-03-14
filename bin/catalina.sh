@@ -183,7 +183,7 @@ if $os400; then
   system $COMMAND
 
   # Enable multi threading
-  export QIBM_MULTI_THREADED=Y
+  #export QIBM_MULTI_THREADED=Y
 fi
 
 # Get standard Java environment variables
@@ -303,7 +303,7 @@ fi
 JDK_JAVA_OPTIONS="$JDK_JAVA_OPTIONS --add-opens=java.base/java.lang=ALL-UNNAMED"
 JDK_JAVA_OPTIONS="$JDK_JAVA_OPTIONS --add-opens=java.base/java.io=ALL-UNNAMED"
 JDK_JAVA_OPTIONS="$JDK_JAVA_OPTIONS --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED"
-export JDK_JAVA_OPTIONS
+#export JDK_JAVA_OPTIONS
 
 # ----- Execute The Requested Command -----------------------------------------
 
